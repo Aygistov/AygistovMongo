@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 var mongoose = require('mongoose');
-var promise = mongoose.connect('mongodb://aygistov:Ayg020210@ds149535.mlab.com:49535/aygistovapp', {
+var promise = mongoose.connect('mongodb://aygistov:Ayg@ds149535.mlab.com:49535/aygistovapp', {
     useMongoClient: true,
     /* other options */
 });
